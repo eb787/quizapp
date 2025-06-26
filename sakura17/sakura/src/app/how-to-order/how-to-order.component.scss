@@ -1,0 +1,28 @@
+h1{
+    font-size: 72px;
+    color: #9F0908;
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.how_to_order{
+    display: flex;
+    flex-direction: column;
+    
+    >img {
+        height:96px;
+        width: 96px;
+    }
+    >span{
+        font-size: 40px;
+        padding-top: 16px;
+        font-weight: bold;
+    }
+}
+

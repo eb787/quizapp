@@ -1,0 +1,46 @@
+@import './../../../styles.scss';
+
+
+
+nav {
+    width: 100%;
+    padding: 32px;
+   @include dFlex($jc: space-between);
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+    >div{
+        width: 450px;
+        @include dFlex($g: 16px);
+        >a {
+            &:hover{
+                color: $dark_red;
+            }
+        }
+
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.div_phone {
+    @include dFlex($g: 5px);
+    background-color: $dark_red;
+    padding: 10px;
+    @include borderStyling(solid);
+
+    > img {
+        width: 28px;
+        height: 28px;
+    }
+
+    &:hover {
+        background-color: #d41919;
+        cursor: pointer;
+    }
+}
